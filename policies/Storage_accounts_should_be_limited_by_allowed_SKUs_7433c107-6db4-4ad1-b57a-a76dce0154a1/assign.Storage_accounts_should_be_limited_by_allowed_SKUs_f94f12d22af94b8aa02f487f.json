@@ -1,0 +1,33 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Storage accounts should be limited by allowed SKUs",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7433c107-6db4-4ad1-b57a-a76dce0154a1",
+  "scope": "/subscriptions/e8526cb1-a61a-4997-a441-f236ff328319/resourceGroups/Policy_as_a_code",
+  "notScopes": [],
+  "parameters": {
+   "listOfAllowedSKUs": {
+    "value": [
+     "standard_lrs"
+    ]
+   }
+  },
+  "metadata": {
+   "assignedBy": "Rupesh R Sonawane",
+   "parameterScopes": {
+    "listOfAllowedSKUs": "/subscriptions/e8526cb1-a61a-4997-a441-f236ff328319/resourceGroups/Policy_as_a_code"
+   },
+   "createdBy": "d04c3cf1-e68f-4d94-8a0a-59b7475cb207",
+   "createdOn": "2021-07-13T11:53:35.8658104Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/e8526cb1-a61a-4997-a441-f236ff328319/resourceGroups/Policy_as_a_code/providers/Microsoft.Authorization/policyAssignments/f94f12d22af94b8aa02f487f",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "f94f12d22af94b8aa02f487f"
+}
