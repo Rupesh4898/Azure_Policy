@@ -6,8 +6,15 @@
   "metadata": {
    "createdBy": "d04c3cf1-e68f-4d94-8a0a-59b7475cb207",
    "createdOn": "2021-07-13T11:57:34.1090973Z",
-   "updatedBy": null,
-   "updatedOn": null
+   "updatedBy": "ac351ee3-b1a7-4bba-a7f1-f6ef36289c44",
+   "updatedOn": "2021-07-14T04:31:13.6024838Z",
+   "gitHubPolicy": {
+    "digest": "a43f9d0c4a8b7deee58b3ccff8d53801f1f6b395",
+    "repoName": "Rupesh4898/Policy",
+    "commitSha": "baf4061e16c3b303b26c25100b3665da83ea95ab",
+    "runUrl": "https://github.com/Rupesh4898/Policy/actions/runs/1028996807",
+    "filepath": "policies/rupesh_65776c53-97b0-482a-96a5-ef7159ab998e"
+   }
   },
   "parameters": {
    "allowedLocations": {
