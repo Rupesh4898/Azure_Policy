@@ -1,0 +1,54 @@
+{
+ "properties": {
+  "displayName": "def1",
+  "policyType": "Custom",
+  "metadata": {
+   "version": "1.0.0",
+   "parameterScopes": {
+    "listOfAllowedSKUs": "/subscriptions/e8526cb1-a61a-4997-a441-f236ff328319"
+   },
+   "createdBy": "d04c3cf1-e68f-4d94-8a0a-59b7475cb207",
+   "createdOn": "2021-07-14T08:02:23.9988254Z",
+   "updatedBy": "f59eea16-0ced-400e-815e-061c78eb9483",
+   "updatedOn": "2021-07-14T08:20:37.7307766Z",
+   "gitHubPolicy": {
+    "digest": "77a353eeb8f4fbdf7c63919b2bcf5682b40279fc",
+    "repoName": "Rupesh4898/Policy",
+    "commitSha": "2ddfbb27f22a1df958b4c7e1d8d14236f9590fb0",
+    "runUrl": "https://github.com/Rupesh4898/Policy/actions/runs/1029529809",
+    "filepath": "initiatives/def1_4bf99934c3fb463391d529ef"
+   }
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Allowed virtual machine size SKUs_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cccc23c7-8427-4f53-ad12-b6a63eb452b3",
+    "parameters": {
+     "listOfAllowedSKUs": {
+      "value": [
+       "standard_d4s_v4"
+      ]
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should be limited by allowed SKUs_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7433c107-6db4-4ad1-b57a-a76dce0154a1",
+    "parameters": {
+     "listOfAllowedSKUs": {
+      "value": [
+       "standard_lrs"
+      ]
+     }
+    },
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/e8526cb1-a61a-4997-a441-f236ff328319/providers/Microsoft.Authorization/policySetDefinitions/4bf99934c3fb463391d529ef",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "4bf99934c3fb463391d529ef"
+}
