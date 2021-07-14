@@ -20,7 +20,8 @@
     "parameters": {
      "listOfAllowedSKUs": {
       "value": [
-       "standard_b2ms"
+       "Standard_b2ms",
+       "Standard_D2s_v3"
       ]
      }
     },
