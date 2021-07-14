@@ -21,7 +21,8 @@
      "listOfAllowedSKUs": {
       "value": [
        "standard_b2ms",
-       "standard_d2s_v3"
+       "standard_d2s_v3",
+       "standard_d4s_v4"
       ]
      }
     },
