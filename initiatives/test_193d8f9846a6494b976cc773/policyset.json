@@ -1,0 +1,47 @@
+{
+ "properties": {
+  "displayName": "test",
+  "policyType": "Custom",
+  "metadata": {
+   "version": "1.0.0",
+   "parameterScopes": {
+    "listOfAllowedSKUs": "/providers/Microsoft.Management/managementGroups/msdn_azure_mct"
+   },
+   "createdBy": "a25d6118-76ae-48c0-9139-8e30c2700cfb",
+   "createdOn": "2021-07-14T11:40:28.3933095Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Allowed virtual machine size SKUs_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cccc23c7-8427-4f53-ad12-b6a63eb452b3",
+    "parameters": {
+     "listOfAllowedSKUs": {
+      "value": [
+       "standard_b2ms"
+      ]
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should be limited by allowed SKUs_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7433c107-6db4-4ad1-b57a-a76dce0154a1",
+    "parameters": {
+     "listOfAllowedSKUs": {
+      "value": [
+       "standard_lrs"
+      ]
+     }
+    },
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/msdn_azure_mct/providers/Microsoft.Authorization/policySetDefinitions/193d8f9846a6494b976cc773",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "193d8f9846a6494b976cc773"
+}

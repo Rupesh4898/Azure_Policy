@@ -1,0 +1,25 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "test",
+  "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/msdn_azure_mct/providers/Microsoft.Authorization/policySetDefinitions/193d8f9846a6494b976cc773",
+  "scope": "/providers/Microsoft.Management/managementGroups/msdn_azure_mct",
+  "notScopes": [],
+  "parameters": {},
+  "metadata": {
+   "assignedBy": "Laxman Awate",
+   "parameterScopes": {},
+   "createdBy": "a25d6118-76ae-48c0-9139-8e30c2700cfb",
+   "createdOn": "2021-07-14T11:41:10.2710398Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/msdn_azure_mct/providers/Microsoft.Authorization/policyAssignments/64ae61cde63d43d085d2e01e",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "64ae61cde63d43d085d2e01e"
+}
